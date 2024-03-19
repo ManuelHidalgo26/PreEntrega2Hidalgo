@@ -25,7 +25,7 @@
     color: #f00;
 }
 nav ul li {
-    margin: 0 30px;/* Estilos para el menú de navegación */
+    margin: 0 ;/* Estilos para el menú de navegación */
 }
 nav a {
     color: #000;/* Estilos para el menú de navegación */
@@ -50,7 +50,7 @@ nav li:hover {
 nav {
     background-color: #ffd700;/* Estilos para el menú de navegación */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    height: 50px;
+    height: auto;
 }
 header {
     text-align: center;/* Estilos para el encabezado */
@@ -213,4 +213,29 @@ footer{
     text-decoration: none;
     letter-spacing: 10px;
     font-size: 30px;
+}
+
+
+.resolucion{
+    width: 99%;
+    text-align: center;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px){ 
+    /* Estilos para dispositivos pequeños */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px){ 
+    /* Estilos para tablets y dispositivos medianos */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px){ 
+    /* Estilos para pantallas de escritorio y dispositivos grandes */
+}
+
+/* Extra-large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    /* Estilos para pantallas extra grandes */
 }
