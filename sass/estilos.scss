@@ -1,0 +1,240 @@
+*{
+    margin: 0;/* Reset de pagina */
+    padding: 0;
+    box-sizing: border-box;
+} 
+$color0:#191919;
+$color1:#45a049;
+$colo2:#fff;
+.logo{
+    color: #fff;/* Estilos para el logo */
+    font-weight: bold;
+    font-size: 24px;
+    flex-direction: row;
+    box-shadow: 0 0 10px #000;
+    text-align: center;
+    height: 38px;
+    width: auto;
+    background-size: cover;
+    position: fixed;
+}
+.logo a{
+    text-decoration: none;/* Estilos para el logo */
+    color: inherit;
+}
+
+nav ul li {
+    margin: 0 ;/* Estilos para el menú de navegación */
+}
+nav a {
+    color: #000;/* Estilos para el menú de navegación */
+    text-decoration: none;
+}
+nav ul {
+    background-color: white;/* Estilos para el menú de navegación */
+    text-align: center;
+    padding: auto;
+    margin: 0;
+}
+nav li {
+    padding: 10px;/* Estilos para el menú de navegación */
+    width: auto;
+    display: inline-block; 
+    margin-right: 0;
+}
+nav li:hover {
+    background-color: springgreen;/* Estilos para el menú de navegación */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+nav {
+    background-color: #ffd700;/* Estilos para el menú de navegación */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: auto;
+}
+header {
+    text-align: center;/* Estilos para el encabezado */
+    width: 100%; 
+}
+main h1 {
+    font-style: italic;/* Estilos para el encabezado */
+    font-family: 'Oswald', sans-serif; 
+    font-weight: bold;
+    color: #D35400; 
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px; 
+    border-radius: 50px;
+    border: 2px solid #fff; 
+    max-width: 80%; 
+    margin: 20px auto; 
+    margin-top: 20px;
+}
+.botones{
+    font-style: italic;/* Estilos para el encabezado */
+    font-family: 'Oswald', sans-serif; 
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+.botonconozco, .botonquiero {
+    background-color: #4CAF50; /* Color de fondo */
+    border: none; /* Sin borde */
+    color: #ffffff; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Mostrar como elemento de bloque */
+    font-size: 16px; /* Tamaño de la fuente */
+    margin: 10px; /* Margen exterior */
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+    border-radius: 5px; /* Borde redondeado */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+.botonconozco:hover, .botonquiero:hover {
+    background-color: #45a049; /* Color de fondo al pasar el mouse */
+}
+
+
+.beneficios {
+    position: relative;
+    text-align: center;
+    font-weight: bold;/* Estilos para el encabezado h3 */
+    font-style: italic;
+    background-color: #005800;
+} 
+.beneficio{
+    text-align: center; /*centra el texto*/
+    background-color: #005800;
+
+}
+.galeria,
+.galeria {
+    display: inline-block;/* Estilos para las imagenes */
+    width: 45%;
+    margin: 10px;
+    border: 2px solid #ffffff;/* Agrega un borde de 2px sólido de color blanco */
+}
+.galeria img{
+    width: 100%; /* Estilos para las imagenes */
+    height: auto; 
+    display: grid;
+    grid-template-columns: repeat(4, 0.5fr); /* Crea 4 columnas de igual ancho */
+    gap: 10px; /* Espacio entre las imágenes */
+}
+.galeria:hover {
+    border-color: #ff0000; /* Cambia el color del borde cuando el mouse se pasa por encima */
+    transform: scale(1.05); /* Escala la imagen al 110% de su tamaño original cuando el mouse se pasa por encima */
+}
+img{
+    transition: border-color 0.9s ease; /* Agrega una transición suave de 0.3 segundos al color del borde */
+    width: 300px;/* Estilos para las imagenes */
+    height: auto;
+    position:static;
+}
+body {
+    font-family: 'Arial', sans-serif;/* Estilos para el contenido principal */
+    background-color: #f0f0f0;
+}
+body {
+    background-color: #A9A9A9;/* Estilos para el contenido principal */
+    margin: 0; 
+    padding: 0; 
+}  
+h2 {
+text-align: left;    /* Estilos para el encabezado h2 */
+color:#C0392B ;
+}
+.gym {
+    align-items: right;/* Estilos para imagen */
+}
+.gymvideo{
+    display: flex;
+    justify-content: flex-end; /*lo coloca del lado derecho*/
+    align-items: center; /* Centra verticalmente */
+}
+.gymvideo video{
+    width: 50%; /* Ajusta el ancho del video */
+}
+
+
+ol{
+    background-color: #005800;/*color de fondo*/
+}
+.personas1{
+    background-color: #005800;/*personalizacion y posicion de experiencias*/
+    width: 60%;
+    border: 5px solid #fffb00;
+    float: right;
+}
+.personas2{
+    background-color: #005800;/*personalizacion y posicion de experiencias*/
+    width: 60%;
+    border: 5px solid #fffb00;
+    float: right;
+}
+.personas3{
+    background-color: #005800;/*personalizacion y posicion de experiencias*/
+    width: 60%;
+    border: 5px solid #fffb00;
+    
+}
+.personas4{
+    background-color: #005800;/*personalizacion y posicion de experiencias*/
+    width: 60%;
+    border: 5px solid #fffb00;
+}
+.libros a{
+    color: #000;/* Estilos para los libros*/
+    text-decoration: none; 
+}
+.libros {
+    list-style-type: circle;/* Estilos para los libros */
+}
+footer{
+    color: #000;                /*Personalizacion de footer*/
+    background-color: #005800;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+.redes{
+    margin-top: 20px;
+}
+.redes li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.redes a{
+    color: #ffd700;      /*color, posicionamiento y tamaño de iconos de redes*/
+    text-decoration: none;
+    letter-spacing: 10px;
+    font-size: 30px;
+}
+
+
+.resolucion{
+    width: 99%;
+    text-align: center;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px){ 
+    /* Estilos para dispositivos pequeños */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px){ 
+    /* Estilos para tablets y dispositivos medianos */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px){ 
+    /* Estilos para pantallas de escritorio y dispositivos grandes */
+}
+
+/* Extra-large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    /* Estilos para pantallas extra grandes */
+}
