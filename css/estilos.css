@@ -33,7 +33,7 @@ nav a {
 }
 
 nav ul {
-  background-color: white; /* Estilos para el menú de navegación */
+  background-color: #F5DEB3; /* Estilos para el menú de navegación */
   text-align: center;
   padding: auto;
   margin: 0;
@@ -103,7 +103,7 @@ main h1 {
 }
 
 .botonconozco:hover, .botonquiero:hover {
-  background-color: #45a049; /* Color de fondo al pasar el mouse */
+  background-color: #93a837; /* Color de fondo al pasar el mouse */
 }
 
 .beneficios {
@@ -119,12 +119,11 @@ main h1 {
   background-color: #005800;
 }
 
-.galeria,
 .galeria {
   display: inline-block; /* Estilos para las imagenes */
   width: 45%;
   margin: 10px;
-  border: 2px solid #ffffff; /* Agrega un borde de 2px sólido de color blanco */
+  border: 4px solid #ffffff; /* Agrega un borde de 2px sólido de color blanco */
 }
 
 .galeria img {
@@ -135,16 +134,16 @@ main h1 {
   gap: 10px; /* Espacio entre las imágenes */
 }
 
-.galeria:hover {
-  border-color: #ff0000; /* Cambia el color del borde cuando el mouse se pasa por encima */
-  transform: scale(1.05); /* Escala la imagen al 110% de su tamaño original cuando el mouse se pasa por encima */
-}
-
 img {
   transition: border-color 0.9s ease; /* Agrega una transición suave de 0.3 segundos al color del borde */
   width: 300px; /* Estilos para las imagenes */
   height: auto;
   position: static;
+}
+
+.galeria:hover {
+  border-color: #ff0000; /* Cambia el color del borde cuando el mouse se pasa por encima */
+  transform: scale(1.05); /* Escala la imagen al 110% de su tamaño original cuando el mouse se pasa por encima */
 }
 
 body {
