@@ -166,14 +166,45 @@ h2 {
   align-items: right; /* Estilos para imagen */
 }
 
+.ejercicios {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #45a049;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 .gymvideo {
-  display: flex;
-  justify-content: flex-end; /*lo coloca del lado derecho*/
-  align-items: center; /* Centra verticalmente */
+  width: 100%;
+  max-width: 800px; /* Limita el ancho máximo del video para mantener la calidad */
+  margin: 0 auto; /* Centra el video horizontalmente en la página */
 }
 
 .gymvideo video {
-  width: 50%; /* Ajusta el ancho del video */
+  width: 100%;
+  height: auto;
+  display: block; /* Evita el espacio adicional debajo del video */
+}
+
+.contenido {
+  color: #000;
+  background-color: #005800;
+  max-width: 800px; /* Limita el ancho del contenido */
+  margin: 20px auto; /* Centra el contenido y agrega espacio alrededor */
+  padding: 20px;
+  border-radius: 10px; /* Borde redondeado */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.nutricion {
+  color: #000;
+  padding: 20px;
+  background-color: #005800;
+}
+
+.info-nutricion, .grupos-alimenticios {
+  margin-bottom: 20px;
 }
 
 ol {
